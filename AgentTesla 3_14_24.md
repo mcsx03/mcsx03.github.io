@@ -1,5 +1,5 @@
 An email is sent containing an attachment named "PO1876.xls".:
-    ![[Pasted image 20240314122108.png]]
+    ![Pasted image 20240314122108.png](<Screenshots/Pasted image 20240314122108.png>)
 
 Opening the XLS file triggers a callout to download "everylovecantchangebecauseitsatrueloverwhichmakingeverythingmoregreatunder____newlovetointroducewithmyselfkiss.doc".:
     ![[Pasted image 20240314122211.png]]
