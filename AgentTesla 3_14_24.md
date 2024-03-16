@@ -12,4 +12,3 @@ img{
 
 <img>
 ![1.png|300](Screenshots/1.png)
-</img>
