@@ -1,6 +1,6 @@
 
 An email is sent containing an attachment named "PO1876.xls".:
-    ![Pasted image 20240314122108.png](<Screenshots/Pasted image 20240314122108.png>)
+    ![1.png](1.png image 20240314122108.png>)
 
 
 
