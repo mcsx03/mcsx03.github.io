@@ -10,7 +10,7 @@ img{
 
 TA577 has recently been switching between xls, xlsx, and html attachments. For this short write-up, I’m going to focus on the html attachments. 
 <img>
-![Screenshots/Pasted image 20240328134148.png]
+![mcsx03.github.io/Screenshots/Pasted image 20240328134148.png]
 
 Upon a quick glance, it appears they are using base64 encoding and then reversing the string. 
 <img>
