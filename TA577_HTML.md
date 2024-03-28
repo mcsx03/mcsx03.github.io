@@ -26,8 +26,8 @@ To further investigate, I utilized the two strings as search parameters on Virus
 
 
 Subsequently, I developed a Python script to extract all callouts from the identified samples. 
-<img>
-![[Screenshots/Pasted image 20240328134817.png]]
+
+<img>![[Screenshots/Pasted image 20240328134817.png]]
 This gave us two additional IPs to search for activity to.
 <img>
 ![[Screenshots/Pasted image 20240328135243.png]]
