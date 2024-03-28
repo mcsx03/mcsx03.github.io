@@ -30,3 +30,6 @@ Subsequently, I developed a Python script to extract all callouts from the ident
 This gave us two additional IPs to search for activity to.
 <img>
 ![[Pasted image 20240328135243.png]]
+From this information I created a Yara rule to detect/hunt for these html files.
+<img>
+![[Pasted image 20240328135705.png]]
