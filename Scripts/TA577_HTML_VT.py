@@ -1,4 +1,4 @@
-'#VT Search: content:{72657475726e20732e73706c6974282222292e7265766572736528292e6a6f696e282222293b} and content:{616c6572742822536f6d657468696e672077656e742077726f6e672122293b} 
+#VT Search: content:{72657475726e20732e73706c6974282222292e7265766572736528292e6a6f696e282222293b} and content:{616c6572742822536f6d657468696e672077656e742077726f6e672122293b} 
 
 import os
 import base64
@@ -23,4 +23,4 @@ for filename in os.listdir(folder_path):
             print("-------------------------------------------")
         except:
             print("no results")
-'
+
