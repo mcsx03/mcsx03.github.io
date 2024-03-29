@@ -34,5 +34,5 @@ To wrap it up, I created a Yara rule based on my VT search. This will allows me 
 <br>
 <a href="https://github.com/mcsx03/mcsx03.github.io/blob/main/Yara/TA577_HTML.yara">Link to Yara rule</a>
 <br>
-<a href="IOCs/2024_2_28_TA577_DarkGate">Link to IOCs</a>
+<a href="https://github.com/mcsx03/mcsx03.github.io/blob/main/IOCs/2024_3_28_TA577_DarkGate">Link to IOCs</a>
 <br>
