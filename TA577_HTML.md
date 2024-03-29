@@ -30,7 +30,7 @@ To wrap it up, I created a Yara rule based on my VT search. This will allows me 
 <img src="Screenshots/Pasted image 20240328135705.png">
 
 
-<a href="Scripts/TA577_HTML_VT">Link to Python script</a>
+<a href="Scripts/TA577_HTML_VT.py">Link to Python script</a>
 <br>
 <a href="Yara/TA577_HTML">Link to Yara rule</a>
 <br>
