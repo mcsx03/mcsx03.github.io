@@ -4,7 +4,7 @@ img{
 }
 </style>
 
-This is one from a while back. But still some good information. I was seeing lots of emails with svg attachments. Most lead to stealers/rats like AgentTesla and XWorm. Here is a yara rule I came up with and the process I went through. 
+This is one from a while back, but still seeing these emails in circulation. Emails are being sent with SVG attachment. Most lead to stealers/rats like AgentTesla and XWorm. Here is a yara rule I came up with and the process I went through. 
 
 Starting point was a handful of svg attachments found in circulation. From the handful of attachments, there were six unique hashs I could start with. I tossed these into VirusTotal:
 <a href="Screenshots/SVG1.png"> 
