@@ -27,8 +27,9 @@ This gave me two additional IPs to search for activity to.
 <img src="Screenshots/Pasted image 20240328135243.png">
 
 To wrap it up, I created a Yara rule based on my VT search. This will allows me to hunt/detect these files going forward.
+<a href="Screenshots/Pasted image 20240328135705.png">
 <img src="Screenshots/Pasted image 20240328135705.png">
-
+</a>
 
 <a href="https://github.com/mcsx03/mcsx03.github.io/blob/main/Scripts/TA577_HTML_VT.py">Link to Python script</a>
 <br>
