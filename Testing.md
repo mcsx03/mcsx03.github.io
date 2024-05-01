@@ -1,5 +1,5 @@
 
-{% include styles.html %}
+{% include sidebar.html %}
 <div class="content">
 Recently I encountered an email campaign leading to the distribution of the xworm malware. The campaign involved intricate jumps through scripts and steganography techniques. This method is common in delivering various stealers and RATs like AgentTesla, Remcos, Xworm, and Xloader. Below are the steps I took to analyze the campaign, along with a YARA rule and IOCs.
 
