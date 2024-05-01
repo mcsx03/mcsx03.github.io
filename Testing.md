@@ -34,8 +34,8 @@
   }
 
   .content {
-    margin-left: 200px; /* Same width as sidebar */
-    padding: 15px;
+    margin-left: 2px; /* Same width as sidebar */
+    padding: 2px;
     background-color:#ffffff
   }
 </style>
