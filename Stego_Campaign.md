@@ -1,8 +1,6 @@
-<style>
-img{
-	border: 4px solid black;
-}
-</style>
+{% include sidebar.html %}
+
+
 Recently I encountered an email campaign leading to the distribution of the xworm malware. The campaign involved intricate jumps through scripts and steganography techniques. This method is common in delivering various stealers and RATs like AgentTesla, Remcos, Xworm, and Xloader. Below are the steps I took to analyze the campaign, along with a YARA rule and IOCs.
 
 Starting point: an email containing a link to a zip file.
@@ -77,19 +75,19 @@ Config:
 <img src="Screenshots/stego18.png">
 </a>
 
-In addition to the keylogger and system information gathering, I also observe capabilities for:
-
-    Read: Parses incoming commands and executes corresponding actions, such as restarting the application, shutting down the system, downloading files, executing commands, etc.
-    Plugin: Handles loading and invoking plugins received from the remote client.
-    SendMSG: Sends a message to the remote client.
-    SendError: Sends an error message to the remote client.
-    TD: Executes a DDoS attack on a specified target.
-    Monitoring: Monitors running processes and sends a message to the remote client if certain processes are detected.
-    OpenUrl: Opens a specified URL either in a visible browser window or silently in the background.
-    Cam: Checks if a webcam is available on the system.
-    RunDisk: Writes binary data to disk and executes it as a PowerShell script or an executable file.
-    Memory: Loads and executes an assembly from memory.
-
+  <p>In addition to the keylogger and system information gathering, I also observe capabilities for:</p>
+  <ul>
+    <li>Read: Parses incoming commands and executes corresponding actions, such as restarting the application, shutting down the system, downloading files, executing commands, etc.</li>
+    <li>Plugin: Handles loading and invoking plugins received from the remote client.</li>
+    <li>SendMSG: Sends a message to the remote client.</li>
+    <li>SendError: Sends an error message to the remote client.</li>
+    <li>TD: Executes a DDoS attack on a specified target.</li>
+    <li>Monitoring: Monitors running processes and sends a message to the remote client if certain processes are detected.</li>
+    <li>OpenUrl: Opens a specified URL either in a visible browser window or silently in the background.</li>
+    <li>Cam: Checks if a webcam is available on the system.</li>
+    <li>RunDisk: Writes binary data to disk and executes it as a PowerShell script or an executable file.</li>
+    <li>Memory: Loads and executes an assembly from memory.</li>
+  </ul>
 <a href="https://github.com/mcsx03/mcsx03.github.io/blob/main/Yara/Stego.yara">Link to Yara rule</a>
 <br>
 <a href="https://github.com/mcsx03/mcsx03.github.io/blob/main/IOCs/2024_10_05_Xworm">Link to IOCs</a>
