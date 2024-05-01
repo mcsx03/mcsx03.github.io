@@ -34,10 +34,27 @@
   }
 
   .content {
-    margin-left: 2px; /* Same width as sidebar */
+    margin-left: 2px; 
     padding: 2px;
     background-color:#ffffff
   }
+
+  
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; 
+  }
+
+  .sidebar {
+    width: 100%; 
+    margin-bottom: 20px; 
+  }
+
+  .content {
+    margin-left: 0; 
+  }
+}
+
 </style>
 
 
@@ -125,7 +142,7 @@ Config:
 <a href="Screenshots/stego18.png"> 
 <img src="Screenshots/stego18.png">
 </a>
-
+<br>
 In addition to the keylogger and system information gathering, I also observe capabilities for:
 
     Read: Parses incoming commands and executes corresponding actions, such as restarting the application, shutting down the system, downloading files, executing commands, etc.
