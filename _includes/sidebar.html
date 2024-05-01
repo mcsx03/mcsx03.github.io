@@ -1,4 +1,42 @@
 <!-- _includes/sidebar.html -->
+<style>
+  .sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #f0f0f0;
+    padding-top: 20px;
+    overflow-y: auto; /* Add vertical scrollbar if needed */
+  }
+
+  .category {
+    padding: 8px 16px;
+    font-weight: bold;
+  }
+
+  .sidebar a {
+    display: block;
+    padding: 6px 16px;
+    color: #333;
+    text-decoration: none;
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Show ellipsis for overflowed text */
+    font-size: 14px; /* Adjust font size as needed */
+  }
+
+  .sidebar a:hover {
+    background-color: #ddd;
+  }
+
+  .content {
+    margin-left: 250px; /* Same width as sidebar */
+    padding: 20px;
+  }
+</style>
+
 <div class="container">
     <div class="sidebar">
       <div class="category">WriteUps</div>
