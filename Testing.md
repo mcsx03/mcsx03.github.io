@@ -1,5 +1,5 @@
 ---
-layout:default
+layout: default
 title: test
 ---
 <div class="container">
