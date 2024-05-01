@@ -1,8 +1,5 @@
-<style>
-img{
-	border: 4px solid black;
-}
-</style>
+{% include sidebar.html %}
+
 I'm providing an update to my previous Latrodectus post. Here are additional pivot points I utilized and some searches that might be worth watching.
 
 In my previous post, I mentioned pivoting on "-private-files/shared". However, after monitoring for more sites created with the same body hash, I observed a change from "files" to "fls":

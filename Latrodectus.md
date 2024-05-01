@@ -1,8 +1,4 @@
-<style>
-img{
-	border: 4px solid black;
-}
-</style>
+{% include sidebar.html %}
 
 Noticed a few PDF that ultimately lead to Latrodectus in circulation. Decided to take a look and see what IOCs I could find. Here's the process I went through.
 

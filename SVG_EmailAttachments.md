@@ -1,8 +1,4 @@
-<style>
-img{
-	border: 4px solid black;
-}
-</style>
+{% include sidebar.html %}
 
 This is one from a while back, but still seeing these emails in circulation. Emails are being sent with SVG attachment. Most lead to stealers/rats like AgentTesla and XWorm. Here is a yara rule I came up with and the process I went through. 
 

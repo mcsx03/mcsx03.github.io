@@ -11,7 +11,7 @@
     left: 0;
     background-color: #f0f0f0;
     padding-top: 2px;
-    overflow-y: auto; /* Add vertical scrollbar if needed */
+    overflow-y: auto; 
   }
 
   .category {
@@ -24,10 +24,10 @@
     padding: 6px 16px;
     color: #333;
     text-decoration: none;
-    white-space: nowrap; /* Prevent text wrapping */
+    white-space: nowrap; 
     overflow: hidden;
-    text-overflow: ellipsis; /* Show ellipsis for overflowed text */
-    font-size: 14px; /* Adjust font size as needed */
+    text-overflow: ellipsis; 
+    font-size: 10px;
   }
 
   .sidebar a:hover {
@@ -35,23 +35,23 @@
   }
 
   .content {
-    margin-left: 2px; /* Same width as sidebar */
+    margin-left: 2px; 
     padding: 2px;
   }
 
   @media (max-width: 768px) {
   .container {
-    flex-direction: column; /* Stack items vertically */
+    flex-direction: column; 
   }
 
   .sidebar {
-    width: 100%; /* Full width on mobile */
-    margin-bottom: 20px; /* Add some space between sidebar and content */
-    position: static; /* Reset fixed positioning */
+    width: 100%; 
+    margin-bottom: 20px; 
+    position: static; 
   }
 
   .content {
-    margin-left: 0; /* Reset margin for content */
+    margin-left: 0; 
   }
 }
 </style>

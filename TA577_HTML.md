@@ -1,10 +1,4 @@
-
-
-<style>
-img{
-	border: 4px solid black;
-}
-</style>
+{% include sidebar.html %}
 
 
 TA577 has recently been switching between xls, xlsx, and html attachments. I decided to take a quick look at the html files.
