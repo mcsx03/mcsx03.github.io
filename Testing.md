@@ -2,17 +2,9 @@
 layout: default
 title: test
 ---
-<div class="container">
-  <div class="sidebar">
-    <div class="category">WriteUps</div>
-    <a href="https://mcsx03.github.io/TA577_HTML">2024-03-29 - TA577 HTML Files</a>
-    <a href="https://mcsx03.github.io/SVG_EmailAttachments">2024-04-01 - SVG Email Campaign</a>
-    <a href="https://mcsx03.github.io/Stego_Campaign">2024-04-10 - XWorm_Steganography</a>
-    <a href="https://mcsx03.github.io/Latrodectus">2024-04-29 - Latrodectus</a>
-    <a href="https://mcsx03.github.io/Latrodectus_FollowUp">2024-05-01 - Latrodectus(Follow Up-VT Hunting)</a>
-  </div>
+{% include sidebar.html %}
 
-  <div class="content">
+<div class="content">
 Recently I encountered an email campaign leading to the distribution of the xworm malware. The campaign involved intricate jumps through scripts and steganography techniques. This method is common in delivering various stealers and RATs like AgentTesla, Remcos, Xworm, and Xloader. Below are the steps I took to analyze the campaign, along with a YARA rule and IOCs.
 
 Starting point: an email containing a link to a zip file.
