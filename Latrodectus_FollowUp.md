@@ -25,6 +25,7 @@ When visiting some of these sites, I found another change in the security check 
 <img src="Screenshots/LatVT2_2.png">
 </a>
 <br>
+<br>
 I then noticed that both of these domains have been resolving to the same IP, 193[.]106[.]174[.]210. When examining this IP in VirusTotal, it appears to have a history of malicious activity:
 <br>
 <a href="Screenshots/LatVT3"> 
