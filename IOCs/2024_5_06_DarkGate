@@ -1,0 +1,15 @@
+Email>xlsx>smb>hta>PowerShell>zip>autoit
+
+Email -
+Attachment: may-document-6_2024-[0-9]{4}.xlsx
+
+XLSX Downloads HTA
+\\lincsnet[.]com\share\MS_EXCEL_DOCUMENT_HELPER.hta
+
+HTA runs PowerShell which downloads 2nd stage from
+findyourbackups[.]com/hwkayiuj
+
+2nd stage contains download path to zip
+hxxp://findyourbackups[.]com/xyrbdxwg
+
+Zip file containing AutoIt3.exe and script.a3x is extracted to c:/rlrh/
