@@ -90,5 +90,5 @@ Config:
   </ul>
 <a href="https://github.com/mcsx03/mcsx03.github.io/blob/main/Yara/Stego.yara">Link to Yara rule</a>
 <br>
-<a href="https://github.com/mcsx03/mcsx03.github.io/blob/main/IOCs/2024_10_05_Xworm">Link to IOCs</a>
+<a href="https://github.com/mcsx03/mcsx03.github.io/blob/main/IOCs/2024_05_10_Xworm">Link to IOCs</a>
 <br>
