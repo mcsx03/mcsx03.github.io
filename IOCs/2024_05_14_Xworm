@@ -1,0 +1,26 @@
+Email:
+Subject: Payment receipt.
+Attachment: s949757965.zip
+
+ZIP>IMG>VBS>powershell>callout>exe>callout|C2
+s949757965.zip
+ecdbb7706a0796fe04f416c5ab13bee8 
+
+S949757965.IMG
+C9145E912016F752714098425E5840D9
+
+S949757965.vbs
+7D69463758D7DAA176C7F0C2D7464B79
+
+Callout
+hxxps://joccupationalscience[.]org/df/Kogekunster.xsn
+
+hxxps://joccupationalscience[.]org/df/sKeepUyiF108.bin
+
+C2:
+xw9402may[.]duckdns[.]org 
+
+Commands:
+cmd.exe /c REG ADD HKCU\Software\Microsoft\Windows\CurrentVersion\Run /f /v "Startup key" /t REG_EXPAND_SZ /d "%Transplantationen% -w 1 $Honnrmarchs=(Get-ItemProperty -Path 'HKCU:\Leadenpated\').Jugoslavere;%Transplantationen% ($Honnrmarchs)
+
+cmd.exe" /c "echo %appdata%\Deddy.Dog && echo $
