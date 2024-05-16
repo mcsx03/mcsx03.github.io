@@ -1,0 +1,27 @@
+Email:
+Subject: Your Parcel has Arrived and pending delivery
+Attachment: dhl-form.tar.lz
+
+LZ>VBS>PowerShell>Callout>exe
+dhl-form.tar.lz
+MD5:73d4afda5b8c5bdd259edefdf61277a4 
+
+DHL-FORM.vbs
+MD5:0bd7c8ef21f710b46940bd86875d5b56
+
+Callouts:
+hxxp://103.182.18[.]152/rem/Nykker.dsp
+hxxp://103.182.18[.]152/rem/IJROZFHUkBwd216.bin
+
+AgentTesla:
+Host:mail.technique.net.au
+Username:logo@technique.net.au
+Password:Business@2222
+Email To:logos@technique.net.au
+
+
+Commands:
+cmd.exe C:\Windows\system32\cmd.exe" /c "echo %appdata%\Adspredelsens.Dei && echo $
+
+reg.exe REG  ADD HKCU\Software\Microsoft\Windows\CurrentVersion\Run /f /v "Realterably" /t REG_EXPAND_SZ /d "%Pointberegnings% -w 1 $Gnidningsfrit=(Get-ItemProperty -Path 'HKCU:\Flerstavelsesordets\').Axonophorous;%Pointberegnings% ($Gnidningsfrit)"
+
