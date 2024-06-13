@@ -14,6 +14,7 @@ Taking a different approach, I searched for HTML files containing the string 'va
 </a>
 <br>
 After going through several of the returned samples, I observed a consistent pattern: the presence of 'window.URL.createObjectURL(blob)' and specific types of base64-encoded content. Based on this, I created the following VirusTotal search query:
+<i>tag:html (content:{225545734442} and content:{77696e646f772e55524c2e6372656174654f626a65637455524c28626c6f6229} or content:{224a7942455a} and content:{77696e646f772e55524c2e6372656174654f626a65637455524c28626c6f6229} or content:{22545671} and content:{77696e646f772e55524c2e6372656174654f626a65637455524c28626c6f6229})</i>
 <br>
 <a href="Screenshots/ATVT3.png"> 
 <img src="Screenshots/ATVT3.png">
