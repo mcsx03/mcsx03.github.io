@@ -1,5 +1,5 @@
 {% include sidebar.html %}
-Seeing AgentTesla emails with HTML attachments. The HTML contains Base64-encoded VBE, which prompts a download when opened. The VBE has a Base64-encoded executable that delivers AgentTesla. These are interesting as they don't require a connection between the email and infection. The initial HTML file seems to be a template for delivering LNK files. Below are screenshots of the sample I analyzed.
+Started seeing AgentTesla emails with HTML attachments. The HTML contains Base64-encoded VBE, which prompts a download when opened. The VBE has a Base64-encoded executable that delivers AgentTesla. These are interesting as they do not require a connection between the email and infection. The initial HTML file seems to be a template for delivering LNK files. Below are screenshots of the sample I analyzed.
 
 
 Email
