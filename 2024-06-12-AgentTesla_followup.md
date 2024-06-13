@@ -25,12 +25,12 @@ I decided to do what any crazy analyst would do: download all 32 samples and ana
 <a href="Screenshots/ATVT4.png"> 
 <img src="Screenshots/ATVT4.png">
 </a>
-<br>
+<br><br>
 At this point, I felt the search had reached a stage where I could turn it into a Yara rule. I based this rule off the VT search I created. After testing the rule against the 32 samples, I confirmed its detection capabilities.
 <br>
 <a href="Screenshots/ATVT5.png"> 
 <img src="Screenshots/ATVT5.png">
 </a>
 <br>
-<a href="https://github.com/mcsx03/mcsx03.github.io/blob/main/Yara/HTML_EmbeddedFiles.yara">Link to IOCs</a>
+<a href="https://github.com/mcsx03/mcsx03.github.io/blob/main/Yara/HTML_EmbeddedFiles.yara">Link to Yara Rule</a>
 <br>
