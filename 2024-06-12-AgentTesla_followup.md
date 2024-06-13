@@ -1,3 +1,4 @@
+{% include sidebar.html %}
 I analyzed AgentTesla on "2024-06-12" and expanded my investigation by searching VirusTotal. This led me to discover more samples, enabling me to create a YARA rule for detection. Here's a breakdown of my process and a link to the YARA rule.
 
 Since the HTML file appeared to be a template, I decided to search for some of the HTML comments.Unfortunately, this only found one result.
