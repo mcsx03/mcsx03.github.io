@@ -14,6 +14,7 @@ The link prompts the user to open a PDF.
 <img src="Screenshots/EP2.png">
 </a>
 <br>
+
 The PDF contains a link, usually with a lookalike subdomain for the compromised user's company.
 The link then takes you to the phishing page.
 <br>
