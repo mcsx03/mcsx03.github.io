@@ -56,8 +56,8 @@ From here, I started to pivot off the registrant email address f8d7755b176f3422s
 
 This returned a valuable search to keep tabs on. All but one of the found domains were registered by this user.
 <br>
-<a href="Screenshots/EP9.png"> 
-<img src="Screenshots/EP9.png">
+<a href="Screenshots/EP8.png"> 
+<img src="Screenshots/EP8.png">
 </a>
 <br>
 
