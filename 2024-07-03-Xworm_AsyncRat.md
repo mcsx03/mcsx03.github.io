@@ -14,30 +14,35 @@ PDF which contained the link.
 <img src="Screenshots/XA2.png">
 </a>
 <br>
+
 Link Downlods ZIP file.
 <br>
 <a href="Screenshots/XA2_1.png"> 
 <img src="Screenshots/XA2_1.png">
 </a>
 <br>
+
 ZIP file contains URL file
 <br>
 <a href="Screenshots/XA4.png"> 
 <img src="Screenshots/XA4.png">
 </a>
 <br>
+
 Which then goes to a LNK file
 <br>
 <a href="Screenshots/XA5.png"> 
 <img src="Screenshots/XA5.png">
 </a>
 <br>
+
 Upon examining the site, several files stand out. Interestingly, multiple sites share identical file names and structures. This could lead to an fun hunt in the future.
 <br>
 <a href="Screenshots/XA6.png"> 
 <img src="Screenshots/XA6.png">
 </a>
 <br>
+
 LNK file pulls down new.bat.
 <br>
 <a href="Screenshots/XA6_.png"> 
@@ -50,10 +55,11 @@ Obfuscated batch file.
 <img src="Screenshots/XA7.png">
 </a>
 <br>
-I've encountered several instances of these threats, all following the same format, so I decided to create a Python script to handle them (link below). They use data mapping by setting a key string and then creating another string based on character positions within that key string.
-    - Download a PDF from their site (which does nothing significant).
-    - Download two ZIP files, extract their contents, and delete the ZIP files.
-    - Download startupppp.bat and place it in the startup menu.
+
+I've encountered several instances of these threats, all following the same format, so I decided to create a Python script to handle them (link below). They use data mapping by setting a key string and then creating another string based on character positions within that key string.<br>
+    - Download a PDF from their site (which does nothing significant).<br>
+    - Download two ZIP files, extract their contents, and delete the ZIP files.<br>
+    - Download startupppp.bat and place it in the startup menu.<br>
 Each ZIP file contains a Python executable along with six Python scripts. The script runs the first six scripts: money.py, moment.py, update.py, upload.py, time.py, and kam.py.
 <br>
 <a href="Screenshots/XA8.png"> 
