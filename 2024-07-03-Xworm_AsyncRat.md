@@ -100,11 +100,11 @@ Once running, the threat actors did not try to hide much. They used the Early Bi
 <img src="Screenshots/XA13.png">
 </a>
 <br>
-Finally analyzing the injection of notepad.exe, it appeared to be XWorm and AsyncRat. This was later confirmed by Triage. https://tria.ge/240703-tlv6nsyele/behavioral2
+Finally analyzing the injection of notepad.exe, it appeared to be XWorm and AsyncRat. This was later confirmed by Triage. <a href="https://tria.ge/240703-tlv6nsyele/behavioral2"> Hatching Triage Report </a>
 
 <br>
 <br>
-<a href="https://github.com/mcsx03/mcsx03.github.io/blob/main/IOCs/2024_07_03_Xworm_AsyncRat">Link to script.</a>
+<a href="https://github.com/mcsx03/mcsx03.github.io/blob/main/IOCs/2024_07_03_Xworm_AsyncRat">Link to IOCs.</a>
 <br>
-<a href="https://github.com/mcsx03/mcsx03.github.io/blob/main/Scripts/BatchDecode.py">Link to IOCs.</a>
+<a href="https://github.com/mcsx03/mcsx03.github.io/blob/main/Scripts/BatchDecode.py">Link to script.</a>
 <br>
