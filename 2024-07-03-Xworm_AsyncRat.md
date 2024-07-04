@@ -49,14 +49,14 @@ LNK file pulls down new.bat.
 <img src="Screenshots/XA6_.png">
 </a>
 <br>
-Obfuscated batch file. 
+Obfuscated batch file. I've encountered several instances of these threats, all following the same format, so I decided to create a Python script to handle them (link at bottom). They use data mapping by setting a key string and then creating another string based on character positions within that key string. 
 <br>
 <a href="Screenshots/XA7.png"> 
 <img src="Screenshots/XA7.png">
 </a>
 <br>
 
-I've encountered several instances of these threats, all following the same format, so I decided to create a Python script to handle them (link below). They use data mapping by setting a key string and then creating another string based on character positions within that key string. Based on the output of the script, the batch file is doing several things:<br>
+Based on the output of the script, the batch file is doing several things:<br>
     - Download a PDF from their site (which does nothing significant).<br>
     - Download two ZIP files, extract their contents, and delete the ZIP files.<br>
     - Download startupppp.bat and place it in the startup menu.<br>
