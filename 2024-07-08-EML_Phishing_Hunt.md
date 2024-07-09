@@ -1,5 +1,5 @@
 {% include sidebar.html %}
-A few days ago, we received several phishing emails with EML attachments that contained HTML files. This method isn't new to us, but needing a break from AgentTesla samples, I decided to investigate further. The HTML files utilized a straightforward Replace.Call command to decode the URL embedded within. Upon searching common strings on VirusTotal, it appears these files have been circulating since May 22, 2024. Below is a concise overview of my investigative process, along with a CyberChef recipe and a Python script used to extract the URL.
+A few days ago, we received several phishing emails with EML attachments that contained HTML files. This method isn't new to us, but needing a break from AgentTesla samples, I decided to investigate further. The HTML files utilized a straightforward Replace.Call command to decode the embedded URL. Upon searching common strings on VirusTotal, it appears these files have been circulating since May 22, 2024. Below is an overview of my process, along with a CyberChef recipe and a Python script used to extract the URL.
 
 Initial Email with EML Attachment (companyname.eml)
 <br>
