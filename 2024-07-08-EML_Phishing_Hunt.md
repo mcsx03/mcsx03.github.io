@@ -78,11 +78,11 @@ CyberChef Recipe:<br>
   { "op": "Register",
     "args": ["((?<=/\\()[^|]+(?=\\|))", false, false, false] },
   { "op": "Register",
-    "args": ["(/\\([^|]+\\|)", true, false, false] },
+    "args": ["((?<=\\|)[^/]+(?=\\)/))", false, false, false] },
+  { "op": "Find / Replace",
+    "args": [{ "option": "Regex", "string": "$R0" }, "", true, false, true, false] },
   { "op": "Find / Replace",
     "args": [{ "option": "Regex", "string": "$R1" }, "", true, false, true, false] },
-  { "op": "Find / Replace",
-    "args": [{ "option": "Regex", "string": "$R3" }, "", true, false, true, false] },
   { "op": "Extract URLs",
     "args": [false, false, false] }
 ]
