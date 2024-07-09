@@ -66,7 +66,7 @@ After removing duplicates, this returned 17 unique domains to block/detect.
 
 <br>
 <br>
-<a href="https://github.com/mcsx03/mcsx03.github.io/blob/main/IOCs/2024_07_08_EML_Phihsing_Hunt">Link to IOCs.</a>
+<a href="https://github.com/mcsx03/mcsx03.github.io/blob/main/IOCs/2024_07_08_EML_Phishing_Hunt">Link to IOCs.</a>
 <br>
 <a href="https://github.com/mcsx03/mcsx03.github.io/blob/main/Scripts/PhishingDecode.py">Link to script.</a>
 <br>
