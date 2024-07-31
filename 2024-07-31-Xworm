@@ -1,0 +1,57 @@
+{% include sidebar.html %}
+Today, I encountered an interesting Xworm sample. It started with an email containing two ZIP attachments: one with a PDF and the other with an LNK file. The PDF did not seem to contain anything malicious; it was almost like they forgot to insert the link. However, the LNK file took a few twists before finally delivering the Xworm payload. Below is a high-level overview of the steps I took to analyze the file.
+
+
+Starting point, email with two ZIP attachments:
+<br>
+<a href="Screenshots/XW1.png"> 
+<img src="Screenshots/XW1.png">
+</a>
+<br>
+<a href="Screenshots/XW2.png"> 
+<img src="Screenshots/XW2.png">
+</a>
+<br>
+After finding nothing malicious in the PDF, I started looking at the LNK file. The LNK file contained a PowerShell command with a base64-encoded string.
+<br>
+<a href="Screenshots/XW3.png"> 
+<img src="Screenshots/XW3.png">
+</a>
+<br>
+Deobfuscating the string, I could see it's pulling data from the site 0x0[.]st.
+<br>
+<a href="Screenshots/XW4.png"> 
+<img src="Screenshots/XW4.png">
+</a>
+<br>
+The site contained additional Base64-encoded strings.
+<br>
+<a href="Screenshots/XW5.png"> 
+<img src="Screenshots/XW5.png">
+</a>
+<br>
+After getting this into a more readable format, I could see that it was using yet another base64-encoded string which was XOR'd. The base64 string would be decrypted, saved to the AppData folder, and then executed.
+<br>
+<a href="Screenshots/XW6.png"> 
+<img src="Screenshots/XW6.png">
+</a>
+<br>
+Using CyberChef, I reversed the operation, which revealed the executable.
+<br>
+<a href="Screenshots/XW7.png"> 
+<img src="Screenshots/XW7.png">
+</a>
+<br>
+Looking at the unpacked sample, it was preatty easy to tell it was Xworm. To get the c2, I simply set a breakpoint before it decrypted, letting it decrypted the config for me.
+<br>
+<a href="Screenshots/XW8.png"> 
+<img src="Screenshots/XW8.png">
+</a>
+<br>
+<a href="Screenshots/XW9.png"> 
+<img src="Screenshots/XW9.png">
+</a>
+<br>
+<br>
+<a href="https://github.com/mcsx03/mcsx03.github.io/blob/main/IOCs/2024_07_31_Xworm">Link to IOCs.</a>
+
