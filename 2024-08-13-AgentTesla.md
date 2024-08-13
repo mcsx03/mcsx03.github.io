@@ -39,4 +39,4 @@ After unpacking the file, we can easily view the configuration and confirm that 
 <br>
 <a href="https://github.com/mcsx03/mcsx03.github.io/blob/main/IOCs/2024_08_13_AgentTesla">Link to IOCs</a>
 <br>
-<a href="https://github.com/mcsx03/mcsx03.github.io/blob/main/Scripts/WordDoc_URLs.py">Link to Script</a>
+<a href="https://github.com/mcsx03/mcsx03.github.io/blob/main/Scripts/WordDocx_URLs.py">Link to Script</a>
