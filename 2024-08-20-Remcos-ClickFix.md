@@ -34,9 +34,9 @@ The MSI performs several actions. It extracts an executable to `AppData\Local\Pr
 
 *   _C:\Windows\system32\cmd.exe /c powershell -inputformat none -outputformat none -NonInteractive -Command Add-MpPreference -ExclusionPath "C:\Users\<username>\AppData\Local\Programs\Network MPluginManager\Coolmuster PDF Image Extractor.exe"_
 
-*   _netsh advfirewall firewall add rule name="Coolmuster PDF Image Extractor In Service" dir=in action=allow program="C:\Users\Admin\AppData\Local\Programs\Network MPluginManager\Coolmuster PDF Image Extractor.exe" enable=yes_
+*   _netsh advfirewall firewall add rule name="Coolmuster PDF Image Extractor In Service" dir=in action=allow program="C:\Users\<username>\AppData\Local\Programs\Network MPluginManager\Coolmuster PDF Image Extractor.exe" enable=yes_
 
-*   _netsh advfirewall firewall add rule name="Coolmuster PDF Image Extractor Out Service" dir=out action=allow program="C:\Users\Admin\AppData\Local\Programs\Network MPluginManager\Coolmuster PDF Image Extractor.exe" enable=yes_
+*   _netsh advfirewall firewall add rule name="Coolmuster PDF Image Extractor Out Service" dir=out action=allow program="C:\Users\<username>\AppData\Local\Programs\Network MPluginManager\Coolmuster PDF Image Extractor.exe" enable=yes_
 
 
 Keylogged data is saved to `ProgramData/remcos/logs.dat`.
