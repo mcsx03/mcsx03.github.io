@@ -7,12 +7,12 @@ Starting point: an email with an HTML attachment.
 <img src="Screenshots/RC1.png">
 </a>
 <br>
+<br>
 HTML File.
 <br>
 <a href="Screenshots/RC2.png"> 
 <img src="Screenshots/RC2.png">
 </a>
-<br>
 <br>
 <a href="Screenshots/RC3.png"> 
 <img src="Screenshots/RC3.png">
@@ -44,6 +44,7 @@ Keylogged data is saved to `ProgramData/remcos/logs.dat`.
 <a href="Screenshots/RC6.png"> 
 <img src="Screenshots/RC6.png">
 </a>
+<br>
 <br>
 Remcos C2 - 
 <br>
