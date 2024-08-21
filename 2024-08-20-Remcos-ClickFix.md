@@ -13,7 +13,6 @@ HTML File.
 <a href="Screenshots/RC2.png"> 
 <img src="Screenshots/RC2.png">
 </a>
-<br>
 <a href="Screenshots/RC3.png"> 
 <img src="Screenshots/RC3.png">
 </a>
